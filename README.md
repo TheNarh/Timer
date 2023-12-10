@@ -18,3 +18,7 @@ Press the "Start" button to begin the timer.
 Pause Timer: To momentarily stop the timer, press the "Pause" button. Press "Start" to continue.
 
 Reset Timer: To reset the timer to zero, click the "Reset" button.
+
+# Screenshots
+![Timer](https://github.com/TheNarh/Timer/assets/41292435/db7e01b8-353e-4586-99d1-da60208c0d8c)
+
