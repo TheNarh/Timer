@@ -1,9 +1,21 @@
+
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
+  background-color: beige;
+  animation: pulse 5s infinite alternate; /* Added background animation */
+}
+
+@keyframes pulse {
+  0% {
+    background-color: beige;
+  }
+  100% {
+    background-color: #ffebcd; /* Change to a slightly different color for animation effect */
+  }
 }
 
 .timerBtn {
@@ -14,18 +26,20 @@ body {
   background-color: #3a3333;
   color: white;
   cursor: pointer;
-  font-family: consolas, monospace;
+  font-family: 'Consolas', monospace;
 }
 
 #timeDisplay {
   font-size: 75px;
   color: #40c437;
-  font-family: consolas, monospace;
+  font-family: 'Consolas', monospace;
 }
+
 #timeContainer {
   text-align: center;
   border: 3px solid;
   border-radius: 25px;
   background-color: #5a3d3d;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0, 3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
