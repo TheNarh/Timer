@@ -5,8 +5,11 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-  background-color: beige;
+  background: rgb(176, 180, 182)
+    url("https://wallpapercave.com/wp/wp3616308.jpg");
+  background-repeat: repeat;
   animation: pulse 5s infinite alternate; 
+  
 }
 
 @keyframes pulse {
